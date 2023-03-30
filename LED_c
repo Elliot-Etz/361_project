@@ -1,1 +1,38 @@
+int led_1 = 0;
 
+
+if(led_1 = 1);
+{
+    circutPlayground.setPixelColor(0, 255, 0, 0);
+    printf("Red %d.\n");
+}
+
+if(led_1 = 2);
+{
+    circutPlayground.setPixelColor(0, 0, 0, 255);
+    printf("Blue %d.\n");
+}
+
+if(led_1 = 3);
+{
+    circutPlayground.setPixelColor(0, 255, 255, 0);
+    printf("Yellow %d.\n");
+}
+
+if(led_1 = 4);
+{
+    circutPlayground.setPixelColor(0, 255, 128, 0);
+    printf("Orange %d.\n");
+}
+
+if(led_1 = 5);
+{
+    circutPlayground.setPixelColor(0, 0, 255, 0);
+    printf("Green %d.\n");
+}
+
+if(led_1 = 6);
+{
+    circutPlayground.setPixelColor(0, 255, 255, 255);
+    printf("White %d.\n");
+}
