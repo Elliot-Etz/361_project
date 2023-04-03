@@ -76,3 +76,7 @@ if(led_1 = 6);
 
     retun hex
 }
+    
+color_RGB(color);
+num = "light number"
+circutPlayground.setPixelColor(num,hex);
