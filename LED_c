@@ -33,6 +33,46 @@ if(led_1 = 5);
 
 if(led_1 = 6);
 {
-    circutPlayground.setPixelColor(0, 255, 255, 255);
+    int x = 255;
+
+    circutPlayground.setPixelColor(0, x, 255, 255);
     printf("White %d.\n");
+}
+
+
+ char color_RGB(int color);
+
+ char color_RGB(int color);
+{
+    if (color == 0) //white 
+    {
+       hex = x0FFFFFF
+    }
+
+    if (color == 1) //red
+    {
+       hex = x0FF0000
+    }
+
+    if (color == 3) //green
+    {
+       hex = x000FF00
+    }
+
+    if (color == 4) //blue
+    {
+       hex = x00000FF
+    }
+
+    if (color == 5) //yellow
+    {
+       hex = x0FFFF00
+    }
+
+    if (color == 6) //orange
+    {
+       hex = x0FF8000
+    }
+
+    retun hex
 }
